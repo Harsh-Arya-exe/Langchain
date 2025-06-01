@@ -34,7 +34,7 @@ template = PromptTemplate(
 
 chain =  template | model | parser
 
-result = chain.invoke({})
+result = chain.invoke({}) # emplty dict bcoz without it it will give as there is no var in input_var argument inside PromptTemplate
 
 print(result)
 """
