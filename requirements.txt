@@ -6,9 +6,9 @@ huggingface-hub
 python-dotenv
 langchain-google-genai
 google-generativeai
-langchain-openai
-openai
 streamlit
 langchain-community
 pydantic
 pydantic[email]
+pypdf
+beautifulsoup4
