@@ -12,3 +12,4 @@ pydantic
 pydantic[email]
 pypdf
 beautifulsoup4
+langchain-experimental
