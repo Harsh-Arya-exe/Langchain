@@ -13,4 +13,8 @@ pydantic[email]
 pypdf
 beautifulsoup4
 langchain-experimental
+langchain-chroma
+tiktoken
+faiss-cpu
+wikipedia
 faiss-cpu
