@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1O7cdBtiP_GNXgL9Iz4LPzYfvTKtMtv25
 """
 
-import os
-os.environ["OPENAI_API_KEY"] = "sk-proj-o9scy9gT3BlbkFJHkRNgKTH-i2KzFqlvsRWFPlrrwzQHl9wsJTpVuhR-qM6NLOYVRleM698IARLTAt8TuLsgjKV8A"
-
 !pip install -q langchain-openai langchain-community langchain-core requests duckduckgo-search
 
 from langchain_openai import ChatOpenAI
@@ -25,7 +22,7 @@ def get_weather_data(city: str) -> str:
   """
   This function fetches the current weather data for a given city
   """
-  url = f'https://api.weatherstack.com/current?access_key=4d1d8ae207a8c845a52df8a67bf3623e&query={city}'
+  url = f'https://api.weatherstack.com/current?access_key=4d1d8ae207a8c845a52df8a67bf362e&query={city}'
 
   response = requests.get(url)
 
